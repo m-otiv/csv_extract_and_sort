@@ -9,10 +9,8 @@ aux = ""
 final = []
 cities.map{ |c|
   if aux != c.country
-    if c.altitude > 0
-      aux = c.country
-      final.push(c)
-    end
+    aux = c.country
+    final.push(c)
   end
 }
 final = final.sort_by { |c| [c.altitude] }.reverse!

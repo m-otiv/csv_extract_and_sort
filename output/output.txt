@@ -151,3 +151,5 @@
 1m - Majuro, Marshall Islands
 1m - Hithadhoo, Mali
 1m - Tarawa, Kiribati
+-9999m - Funafuti, Tuvalu
+-9999m - Victoria, Seychelles
