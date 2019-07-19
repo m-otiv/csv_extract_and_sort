@@ -30,5 +30,11 @@ Automation tests and project dockerization are not required but very appreciated
 Just run this command inside the folder to let the magic happen
 
 ```bash
-docker-compose up --build -d
+docker-compose up
+```
+
+### Running Test
+
+```bash
+docker-compose run app rake
 ```

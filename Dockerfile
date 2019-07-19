@@ -7,4 +7,4 @@ COPY Gemfile.lock /myapp/Gemfile.lock
 RUN bundle install
 COPY . /myapp
 
-CMD ["ruby", "app.rb"]
+CMD ["rake", "main"]
